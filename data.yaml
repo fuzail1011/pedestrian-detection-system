@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: spt-mw0cf
+  project: pedestrian-detection-e0rdy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spt-mw0cf/pedestrian-detection-e0rdy/dataset/1
